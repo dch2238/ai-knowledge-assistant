@@ -1,0 +1,15 @@
+# Python virtual environment (never commit dependencies)
+.venv/
+venv/
+ENV/
+
+# Python cache & compiled bytecode
+__pycache__/
+*.pyc
+
+# Environment variables & secrets (CRITICAL: never commit API keys!)
+.env
+.env.local
+
+# VS Code settings
+.vscode/
