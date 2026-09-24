@@ -1,0 +1,4 @@
+ AI Usage Policy:
+1. Always protect user data and API keys.
+2. Never store passwords in prompt templates.
+3. Verify retrieved chunks before passing to LLM.
